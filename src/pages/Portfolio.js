@@ -9,7 +9,7 @@ function Portfolio() {
         <h1 className='menuTitle'>Projects </h1>
         <div className='menuList'>
             { ProjectList.map((projectItem, key)=>{
-                return <PortfolioItem key={key} image={projectItem.image} name={projectItem.name} description={projectItem.description} url={projectItem.url} />
+                return <PortfolioItem key={key} image={projectItem.image} name={projectItem.name} description={projectItem.description} url={projectItem.url} github={projectItem.github} />
             })}
         </div>
     </div>
