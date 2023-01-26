@@ -5,6 +5,7 @@ import Weather from '../media/weather.jpg';
 import CodeQuiz from '../media/quiz.jpg';
 import WorkDay from '../media/Schedule.jpg';
 import Editor from '../media/J8.jpg';
+import Travel from '../media/Travel.jpg';
 
 export const ProjectList = [
     {
@@ -55,5 +56,12 @@ export const ProjectList = [
         description: 'Tests your coding knowledge',
         url: "https://ninobrown585.github.io/Code-Quiz/",
         github: "https://github.com/ninobrown585/Code-Quiz"
+    },
+    {
+        name: 'Solo Traveler',
+        image: Travel,
+        description: 'Connects you with other Solo Travelers',
+        url: "https://solo.herokuapp.com/",
+        github: "https://github.com/SSimonPhd/project3"
     },
 ]
